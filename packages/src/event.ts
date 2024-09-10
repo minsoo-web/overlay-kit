@@ -1,4 +1,4 @@
-import { type OverlayAsyncControllerComponent, type OverlayControllerComponent } from './context/provider';
+import type { OverlayAsyncControllerComponent, OverlayControllerComponent } from './context';
 import { dispatchOverlay } from './context/store';
 import { randomId } from './utils';
 
