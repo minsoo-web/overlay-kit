@@ -1,5 +1,5 @@
+import { createSafeContext } from '../utils';
 import { type OverlayData } from './store';
-import { createSafeContext } from '../utils/create-safe-context';
 
 export const [OverlayContextProvider, useOverlayContext] = createSafeContext<OverlayData>('overlay-kit/OverlayContext');
 
